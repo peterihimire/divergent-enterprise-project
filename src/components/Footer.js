@@ -9,7 +9,8 @@ import {
   FaDribbble
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
-// import logo2 from "../images/peterihimire-logo-alt.svg";
+import logo3 from "../images/logo3.png";
+import img from "../images/1.png";
 
 function footer() {
   return (
@@ -19,7 +20,7 @@ function footer() {
           <div className="footer-one">
             <div className="footer-logo">
               <Link to="/" className="logo2">
-                {/* <img src={logo2} alt="peterihimire logo 2" /> */}
+                <img src={logo3} alt="logo3" />
               </Link>
               <div className="footer-follow">
                 <ul className="follow-links-footer">
@@ -107,25 +108,27 @@ function footer() {
               </ul>
             </div>
 
-            <div className="footer-contact">
-              <ul>
-                <li>
-                  <Link to="">
-                    <FaMapMarkerAlt /> 1686 olashore oladele street , off sanusi
-                    fafunwa street , victoria island lagos.
-                  </Link>
-                </li>
-                <li>
-                  <Link to="">
-                    <FaPhoneAlt /> 234-8060-9581-34
-                  </Link>
-                </li>
-                <li>
-                  <Link to="">
-                    <FaEnvelope /> info@procredita.com
-                  </Link>
-                </li>
-              </ul>
+            <div className="footer-map">
+              <div className="card">
+                <ul>
+                  <li>
+                    <Link to="">
+                      <FaMapMarkerAlt /> 1686 olashore oladele street , off
+                      sanusi fafunwa street , victoria island lagos.
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="">
+                      <FaPhoneAlt /> 234-8060-9581-34
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="">
+                      <FaEnvelope /> info@procredita.com
+                    </Link>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>

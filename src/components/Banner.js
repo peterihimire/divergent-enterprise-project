@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import img from "../images/header.png";
 
 const Banner = () => {
   return (
@@ -28,7 +29,7 @@ const Banner = () => {
             </div>
           </div>
           <div className="right-grid">
-            <h1>picture at right</h1>
+            <img src={img} alt="header" />
           </div>
         </div>
       </div>

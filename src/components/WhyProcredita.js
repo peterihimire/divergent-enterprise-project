@@ -2,6 +2,7 @@ import React from "react";
 import Title from "../components/Title";
 import { FaCloud, FaCartPlus, FaWarehouse } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import image from "../images/picture-right.png";
 
 const WhyProcredita = () => {
   return (
@@ -39,7 +40,7 @@ const WhyProcredita = () => {
               </div>
             </div>
             <div className="right-grid">
-              <h1>Picture at right</h1>
+              <img src={image} alt="man" />
             </div>
           </div>
           <div className="card">

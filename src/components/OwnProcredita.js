@@ -1,6 +1,7 @@
 import React from "react";
 import Title from "../components/Title";
 import { Link } from "react-router-dom";
+import image from "../images/picture-left.png";
 
 const OwnProcredita = () => {
   return (
@@ -10,7 +11,7 @@ const OwnProcredita = () => {
           <Title title="own procredita" />
           <div className="own-procredita-container">
             <div className="left-grid">
-              <h1>Picture at left</h1>
+              <img src={image} alt="man" />
             </div>
             <div className="right-grid">
               <div className="grid-text">
