@@ -16,7 +16,7 @@ const OwnProcredita = () => {
             <img src={logo2} alt="logo" />
           </div>
 
-          <Title title="Own Procredita" />
+          <Title title="Own a Procredita Regional Franchise" />
           <div className="own-procredita-container">
             <div className="lady-dots-div">
               <div className="lady-dots">
