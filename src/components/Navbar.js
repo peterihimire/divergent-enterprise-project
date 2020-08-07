@@ -11,33 +11,28 @@ const Navbar = () => {
           <div className="nav-header">
             <Link to="/" className="logo">
               <span>
-                <img src={logo1} alt="header" />
+                <img src={logo1} alt="logo" />
               </span>
-              <img src={logo4} alt="header" />
+              <span>
+                <img src={logo4} alt="logo" />
+              </span>
             </Link>
-
-            <ul className="nav-links">
-              <li className="nav-item">
-                <Link exact activeClassName="active" to="/">
-                  home
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link activeClassName="active" to="/about">
-                  about us
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link activeClassName="active" to="/services">
-                  what we do
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link activeClassName="active" className="btn" to="/contact">
-                  hire us
-                </Link>
-              </li>
-            </ul>
+            <div className="nav-links-div">
+              <ul className="nav-links">
+                <li className="nav-item">
+                  <Link to="/">home</Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/about">about us</Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/services">what we do</Link>
+                </li>
+              </ul>
+              <Link className="btn" to="/contact">
+                hire us
+              </Link>
+            </div>
           </div>
         </div>
       </nav>

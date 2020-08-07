@@ -136,11 +136,14 @@ function footer() {
       <div className="footer-two">
         <div className="footer-two-center">
           <div className="last-footer">
-            <p>This website uses cookies</p>
+            <b>This website uses cookies</b>
             <p>
-              our professional have a combined 85 years in dept recovery efforts
-              that have seen the recovery of more than N19Billion in debt from
-              very unwilling debtors.we use the most advanced
+              We use cookies to personalise content ads to provide social media
+              features and to analyse our traffic. we also share information
+              about your use of our site with our social media, advertising
+              analytics partners who may combine it with other information that
+              you've provided to them or that they've collected from your uses
+              of their services. Check <b>Privacy Policy.</b>
             </p>
             <h5> &copy; procredita 2020. all rights reserved. </h5>
           </div>

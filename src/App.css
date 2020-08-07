@@ -23,6 +23,7 @@
 
 /* globals */
 body {
+  padding: 75px 0 0 0;
   font-family: Arial, Helvetica, sans-serif;
   background: var(--mainWhite);
   overflow-x: hidden;
@@ -37,8 +38,6 @@ body {
   position: fixed;
   width: 100%;
   padding: 1.5rem 2rem;
-  background: rgba(255, 255, 255, 0.856);
-  /* box-shadow: var(--main-shadow); */
   z-index: 1;
   margin: 0 0 2rem 0;
 }
@@ -46,61 +45,6 @@ body {
 .navbar-header {
   display: flex;
   flex-direction: column;
-}
-
-.nav-logo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.nav-logo small {
-  font-style: italic;
-  text-transform: capitalize;
-  font-size: 1.1rem;
-  color: var(--uniColor);
-}
-.nav-logo small {
-  display: none;
-}
-.nav-logo img {
-  width: 5rem;
-  display: none;
-}
-.nav-logo-fixed {
-  display: none;
-}
-.peter-logo-2 {
-  text-transform: uppercase;
-  text-decoration: none;
-  color: var(--primaryColor);
-  font-size: 2.5rem;
-  font-weight: bolder;
-  letter-spacing: var(--mainSpacing);
-}
-.peter-logo-1 {
-  display: none;
-}
-.image2 {
-  width: 4rem;
-}
-.nav-btn {
-  font-size: 2rem;
-  border: none;
-  background: none;
-  color: var(--mainBlack);
-}
-.search-icon {
-  font-size: 1.8rem;
-  color: var(--mainBlack);
-}
-.search-icon2 {
-  display: none;
-}
-.nav-btn-logo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .nav-links {
@@ -115,39 +59,17 @@ body {
   text-transform: capitalize;
   color: var(--mainBlack);
   letter-spacing: 0.1rem;
-  display: none;
-  font-size: 1.4rem;
 }
 
-.active {
-  color: var(--primaryColor) !important;
-  font-weight: bold;
-}
-.pete-logo {
-  display: none;
-}
-
-.pete-logo-fixed {
-  display: none;
-}
 @media screen and (min-width: 768px) {
   .navbar {
     position: fixed;
     width: 100%;
     padding: 2rem 2rem;
-    background: rgba(255, 255, 255, 0.856);
-    margin: 0 0 5rem 0;
-    visibility: visible;
-    /* display: flex; */
-  }
-
-  .navbar-hidden {
-    /* display: none; */
-    visibility: hidden;
-    padding: 1.8rem;
-  }
-  .hero-padding-top {
-    margin: 9.2rem 0 0 0;
+    background: var(--mainWhite);
+    top: 0;
+    left: 0;
+    z-index: 3;
   }
 
   .nav-center {
@@ -160,93 +82,32 @@ body {
     align-items: center;
     justify-content: space-between;
   }
-  .nav-header-f {
+  .nav-links-div {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-  }
-  .navbar-f {
-    display: none;
-  }
-  .nav-btn {
-    display: none;
-  }
-  .search-icon {
-    display: none;
-  }
-  .search-icon2 {
-    display: inline-block;
-    color: var(--mainBlack);
-    font-size: 1.8rem;
-  }
-  .image2 {
-    width: 5rem;
-    display: none;
   }
   .nav-links {
     display: flex;
     justify-content: center;
     list-style-type: none;
   }
-  .nav-links-fixed {
-    position: static;
-  }
+
   .nav-links a {
     margin: 0 1rem;
     text-decoration: none;
     text-transform: capitalize;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: var(--mainBlack);
     letter-spacing: 0.1rem;
     display: inline;
   }
-  .navbar-logo {
-    padding: 3rem 0;
-  }
-  .nav-btn-logo {
-    display: none;
-  }
-  .nav-logo {
+  .logo {
     display: flex;
     justify-content: center;
-    padding: 0 0 0rem 0;
+    align-items: center;
   }
-  .nav-logo small {
-    display: block;
-  }
-  .nav-logo img {
-    width: 7rem;
-    display: inline-block;
-  }
-  .peter-logo-1 {
-    text-transform: uppercase;
-    text-decoration: none;
-    color: var(--mainBlack);
-    font-size: 4.5rem;
-    font-weight: bolder;
-    letter-spacing: var(--mainSpacing);
-    display: inline-block;
-  }
-  .p-logo-fixed {
-    text-transform: uppercase;
-    text-decoration: none;
-    color: var(--mainBlack);
-    font-size: 3rem;
-    font-weight: bolder;
-    letter-spacing: var(--mainSpacing);
-    display: inline-block;
-  }
-  .peter-logo-2 {
-    display: none;
-  }
-  .pete-logo {
-    display: inline-block;
-    text-decoration: none;
-    font-size: 2rem;
-    text-transform: uppercase;
-    color: var(--primaryColor);
-    font-weight: bolder;
-    visibility: hidden;
+  .logo span {
+    padding: 0 0.5rem 0 0;
   }
 }
 /* end of navbar */
@@ -262,12 +123,13 @@ body {
 }
 @media screen and (min-width: 768px) {
   .hero {
-    min-height: calc(100vh - 67.5px);
+    min-height: calc(100vh - 75px);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
+    background: var(--mainWhite);
   }
 }
 /* End of Hero */
@@ -364,45 +226,27 @@ body {
   .btn-container {
     display: flex;
   }
-  .box {
-    position: relative;
-  }
-
-  .box-center {
-    position: absolute;
-    color: var(--mainBlack);
-    font-weight: bold;
-    padding: 4rem;
-    /* background: rgba(241, 238, 238, 0.884); */
-    border-radius: 50%;
-    left: 20%;
-    top: 20%;
-  }
-  .box-center p {
-    background: rgba(211, 210, 210, 0.884);
-    padding: 5rem;
-    border-radius: 50%;
-    position: relative;
-    font-size: 1.6rem;
-  }
-  .box-center span {
-    position: absolute;
-    top: 45%;
-    left: 20%;
-  }
 }
 /* end of banner */
 
 /* Title */
 .section-title {
   text-align: center;
-  margin-bottom: 5rem;
+  padding: 1rem 0;
 }
 /* end of Title */
 
+/* centered */
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
+/* end of centered */
+
 /* why procredita */
 .why-procredita {
-  padding: 6rem 2rem;
+  padding: 4rem 2rem;
   background: #f5f9ff;
 }
 .why-procredita-center {
@@ -419,7 +263,8 @@ body {
 }
 .card {
   box-shadow: 0px 15px 55px rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+  background: var(--mainWhite);
+  margin: 0 6rem;
 }
 .card-center {
   display: grid;
@@ -432,6 +277,33 @@ body {
   padding: 2rem 0;
   display: flex;
   justify-content: center;
+}
+.card-icon-div {
+  padding: 1rem;
+  /* background: #01114c; */
+  display: flex;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  align-items: center;
+  margin: 6rem auto;
+  border-radius: 2rem;
+}
+.card-text-div {
+  padding: 0 2rem;
+}
+.fa-shopping-cart {
+  background: #01114c;
+}
+.fa-cloud {
+  background: #09b1d9;
+}
+.fa-warehouse {
+  background: #0025b4;
+}
+.card-icon {
+  font-size: 2rem;
+  color: var(--mainWhite);
 }
 /* end of why procredita */
 
@@ -450,6 +322,11 @@ body {
   grid-row-gap: 3rem;
   grid-column-gap: 3rem;
   text-align: right;
+}
+.own-btn-div {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: flex-end;
 }
 /* end of own procredita */
 
@@ -555,7 +432,7 @@ body {
 .footer-one {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-gap: 40px;
+  /* grid-gap: 40px; */
   justify-content: space-between;
 }
 .footer-contact a {
@@ -563,7 +440,7 @@ body {
   color: var(--mainBlack);
 }
 .footer-contact li {
-  margin: 0 0 2rem 0;
+  margin: 0 0 1rem 0;
   list-style-type: none;
 }
 .last-footer {
@@ -583,7 +460,7 @@ body {
     text-transform: capitalize;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    grid-gap: 40px;
+    /* grid-gap: 40px; */
     justify-content: space-between;
   }
   .last-footer {
