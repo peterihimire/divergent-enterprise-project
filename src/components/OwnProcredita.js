@@ -13,7 +13,7 @@ const OwnProcredita = () => {
             <img src={logo2} alt="logo" />
           </div>
 
-          <Title title="own procredita" />
+          <Title title="Own Procredita" />
           <div className="own-procredita-container">
             <div className="left-grid">
               <img src={image} alt="man" />
@@ -44,7 +44,7 @@ const OwnProcredita = () => {
                   Our license are available for all parts of Nigeria except
                   Borno, Zamfara and Bayelsa State.
                 </p>
-                <h5>become a dept collection manager</h5>
+                <h5>Become a Dept Collection Manager</h5>
                 <div className="own-btn-div">
                   <Link to="/" className="btn dark">
                     signup

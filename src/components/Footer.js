@@ -25,7 +25,7 @@ function footer() {
               <div className="footer-follow">
                 <ul className="follow-links-footer">
                   <li className="follow-container-footer">
-                    <div className="follow-icon-container-footer1">
+                    <div className="follow-icon-container-footer">
                       <a
                         href="https://facebook.com/ihimirepeter"
                         target="_blank"
@@ -36,7 +36,7 @@ function footer() {
                     </div>
                   </li>
                   <li className="follow-container-footer">
-                    <div className="follow-icon-container-footer2">
+                    <div className="follow-icon-container-footer">
                       <a
                         href="https://twitter.com/ptechanalysis"
                         target="_blank"
@@ -47,7 +47,7 @@ function footer() {
                     </div>
                   </li>
                   <li className="follow-container-footer">
-                    <div className="follow-icon-container-footer3">
+                    <div className="follow-icon-container-footer">
                       <a
                         href="https://instagram.com/peterihimire"
                         target="_blank"
@@ -58,7 +58,7 @@ function footer() {
                     </div>
                   </li>
                   <li className="follow-container-footer">
-                    <div className="follow-icon-container-footer4">
+                    <div className="follow-icon-container-footer">
                       <a
                         href="https://www.linkedin.com/in/peter-ihimire-20b007162"
                         target="_blank"
@@ -107,39 +107,38 @@ function footer() {
                 </li>
               </ul>
             </div>
-
-            <div className="footer-map">
-              <div className="card">
-                <ul>
-                  <li>
-                    <Link to="/">
-                      <div className="footer-c">
-                        <FaMapMarkerAlt />
-                      </div>
-                      <span>
-                        1686 olashore oladele street , off sanusi fafunwa street
-                        , victoria island lagos.
-                      </span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/">
-                      <div className="footer-c">
-                        <FaPhoneAlt />
-                      </div>
-                      <span>234-8060-9581-34</span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/">
-                      <div className="footer-c">
-                        <FaEnvelope />
-                      </div>
-                      <span>info@procredita.com</span>
-                    </Link>
-                  </li>
-                </ul>
-              </div>
+          </div>
+          <div className="footer-map">
+            <div className="card footer-card">
+              <ul>
+                <li>
+                  <Link to="/" className="footer-b">
+                    <div className="footer-c">
+                      <FaMapMarkerAlt />
+                    </div>
+                    <span>
+                      1686 olashore oladele street , off sanusi fafunwa street ,
+                      victoria island lagos.
+                    </span>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/" className="footer-b">
+                    <div className="footer-c">
+                      <FaPhoneAlt />
+                    </div>
+                    <span className="map-phone">234-8060-9581-34</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/" className="footer-b">
+                    <div className="footer-c">
+                      <FaEnvelope />
+                    </div>
+                    <span className="map-message">info@procredita.com</span>
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -156,7 +155,7 @@ function footer() {
               you've provided to them or that they've collected from your uses
               of their services. Check <b>Privacy Policy.</b>
             </p>
-            <h5> &copy; procredita 2020. all rights reserved. </h5>
+            <h5> &copy; Procredita 2020. All rights reserved. </h5>
           </div>
         </div>
       </div>

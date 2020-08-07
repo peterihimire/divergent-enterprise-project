@@ -4,6 +4,7 @@ import { FaCloud, FaWarehouse, FaShoppingCart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import image from "../images/picture-write.png";
 import logo2 from "../images/logo2.png";
+import dots from "../images/Fill.png";
 
 const WhyProcredita = () => {
   return (
@@ -13,8 +14,8 @@ const WhyProcredita = () => {
           <div className="centered">
             <img src={logo2} alt="logo" />
           </div>
-          <Title title="why procredita" />
-          <div className="why-procredita-container">
+          <Title title="Why Procredita" />
+          <div className="why-procredita-container ">
             <div className="left-grid">
               <div className="grid-text">
                 <p className="grid-p">
@@ -48,49 +49,54 @@ const WhyProcredita = () => {
               <img src={image} alt="man" />
             </div>
           </div>
-          <div className="card">
-            <div className="card-center">
-              <div className="card-item">
-                <div className="card-icon-div fa-warehouse">
-                  <FaWarehouse className="card-icon" />
-                </div>
-                <div className="card-text-div">
-                  <p>
-                    we have a high success rate, envied by many of our
-                    commpetitors. In fact we are proud to act for a number of
-                    other debt collection agencies as the final step when the
-                    failed to collect themselves.
-                  </p>
-                </div>
-              </div>
-              <div className="card-item">
-                <div className="card-icon-div fa-cloud">
-                  <FaCloud className="card-icon" />
-                </div>
-                <div className="card-text-div">
-                  <p>
-                    Our modern computer technology has direct access to
-                    up-to-date credit information systems, which enables us to
-                    investigate the profile of your debtors more thoroughly ,
-                    thus ensuring the best course of debt collection action is
-                    taken for each and every account.
-                  </p>
-                </div>
-              </div>
-              <div className="card-item">
-                <div className="card-icon-div fa-shopping-cart">
-                  <FaShoppingCart className="card-icon" />
-                </div>
-                <div className="card-text-div">
-                  <p>
-                    We buy your dept and incur the full cost of collection. This
-                    is how we stand out from the rest.
-                  </p>
-                </div>
-              </div>
+          <div className="main-dots-div">
+            <div className="card-dots">
+              <img src={dots} alt="dot-fill" />
             </div>
-            <div className="card-btn-div">
-              <Link className="btn">hire us</Link>
+            <div className="card ">
+              <div className="card-center">
+                <div className="card-item">
+                  <div className="card-icon-div fa-warehouse">
+                    <FaWarehouse className="card-icon" />
+                  </div>
+                  <div className="card-text-div">
+                    <p>
+                      we have a high success rate, envied by many of our
+                      commpetitors. In fact we are proud to act for a number of
+                      other debt collection agencies as the final step when the
+                      failed to collect themselves.
+                    </p>
+                  </div>
+                </div>
+                <div className="card-item">
+                  <div className="card-icon-div fa-cloud">
+                    <FaCloud className="card-icon" />
+                  </div>
+                  <div className="card-text-div">
+                    <p>
+                      Our modern computer technology has direct access to
+                      up-to-date credit information systems, which enables us to
+                      investigate the profile of your debtors more thoroughly ,
+                      thus ensuring the best course of debt collection action is
+                      taken for each and every account.
+                    </p>
+                  </div>
+                </div>
+                <div className="card-item">
+                  <div className="card-icon-div fa-shopping-cart">
+                    <FaShoppingCart className="card-icon" />
+                  </div>
+                  <div className="card-text-div">
+                    <p>
+                      We buy your dept and incur the full cost of collection.
+                      This is how we stand out from the rest.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="card-btn-div">
+                <Link className="btn">hire us</Link>
+              </div>
             </div>
           </div>
         </div>

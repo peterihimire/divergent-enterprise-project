@@ -10,7 +10,7 @@ const Testimonials = () => {
     <>
       <div className="testimonials">
         <div className="testimonials-center">
-          <Title title="hear from some of our clients" />
+          <Title title="Hear from some of our clients" />
           <div className="testimonials-container">
             <div className="left-grid">
               <div className="testimonials-text">
