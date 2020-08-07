@@ -29,7 +29,7 @@ const Navbar = () => {
                   <Link to="/services">what we do</Link>
                 </li>
               </ul>
-              <Link className="btn" to="/contact">
+              <Link className="btn nav-hire" to="/contact">
                 hire us
               </Link>
             </div>

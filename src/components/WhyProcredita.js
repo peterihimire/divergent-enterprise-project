@@ -20,12 +20,10 @@ const WhyProcredita = () => {
               <div className="grid-text">
                 <p className="grid-p">
                   Dealing with debtors can be very stressful for clients, not to
-                  mention the time it can take to recover the debt.
-                  <p>
-                    At Procredita we help to take the stress away from business
-                    owners and them to refocus their attention back on what they
-                    do best growing their business.
-                  </p>
+                  mention the time it can take to recover the debt. At
+                  Procredita we help to take the stress away from business
+                  owners and them to refocus their attention back on what they
+                  do best growing their business.
                 </p>
                 <p className="grid-p">
                   Procredita offers a range of different debt collection
@@ -95,7 +93,9 @@ const WhyProcredita = () => {
                 </div>
               </div>
               <div className="card-btn-div">
-                <Link className="btn btn-big">hire us</Link>
+                <Link to="/" className="btn btn-big">
+                  hire us
+                </Link>
               </div>
             </div>
           </div>
