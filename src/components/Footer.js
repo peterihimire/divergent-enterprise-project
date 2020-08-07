@@ -112,19 +112,30 @@ function footer() {
               <div className="card">
                 <ul>
                   <li>
-                    <Link to="">
-                      <FaMapMarkerAlt /> 1686 olashore oladele street , off
-                      sanusi fafunwa street , victoria island lagos.
+                    <Link to="/">
+                      <div className="footer-c">
+                        <FaMapMarkerAlt />
+                      </div>
+                      <span>
+                        1686 olashore oladele street , off sanusi fafunwa street
+                        , victoria island lagos.
+                      </span>
                     </Link>
                   </li>
                   <li>
-                    <Link to="">
-                      <FaPhoneAlt /> 234-8060-9581-34
+                    <Link to="/">
+                      <div className="footer-c">
+                        <FaPhoneAlt />
+                      </div>
+                      <span>234-8060-9581-34</span>
                     </Link>
                   </li>
                   <li>
-                    <Link to="">
-                      <FaEnvelope /> info@procredita.com
+                    <Link to="/">
+                      <div className="footer-c">
+                        <FaEnvelope />
+                      </div>
+                      <span>info@procredita.com</span>
                     </Link>
                   </li>
                 </ul>

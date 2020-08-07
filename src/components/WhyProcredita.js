@@ -1,11 +1,6 @@
 import React from "react";
 import Title from "../components/Title";
-import {
-  FaCloud,
-  FaCartPlus,
-  FaWarehouse,
-  FaShoppingCart
-} from "react-icons/fa";
+import { FaCloud, FaWarehouse, FaShoppingCart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import image from "../images/picture-write.png";
 import logo2 from "../images/logo2.png";
@@ -22,7 +17,7 @@ const WhyProcredita = () => {
           <div className="why-procredita-container">
             <div className="left-grid">
               <div className="grid-text">
-                <p>
+                <p className="grid-p">
                   Dealing with debtors can be very stressful for clients, not to
                   mention the time it can take to recover the debt.
                   <p>
@@ -31,13 +26,13 @@ const WhyProcredita = () => {
                     do best growing their business.
                   </p>
                 </p>
-                <p>
+                <p className="grid-p">
                   Procredita offers a range of different debt collection
                   services including our value for cash service. This means that
                   if debtors are truely unable to pay back, they can provide for
                   value for the monies owed by working for it.
                 </p>
-                <p>
+                <p className="grid-p">
                   We work with businesses of all types and sizes from start-ups
                   through to larg corporate companies who operate in a multitude
                   of different industries. Our specialist team are able to adapt
