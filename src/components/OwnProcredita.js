@@ -3,6 +3,7 @@ import Title from "../components/Title";
 import { Link } from "react-router-dom";
 import image from "../images/picture-left.png";
 import logo2 from "../images/logo2.png";
+import dots from "../images/Fill.png";
 
 const OwnProcredita = () => {
   return (
@@ -15,9 +16,15 @@ const OwnProcredita = () => {
 
           <Title title="Own Procredita" />
           <div className="own-procredita-container">
-            <div className="left-grid">
-              <img src={image} alt="man" />
+            <div className="lady-dots-div">
+              <div className="lady-dots">
+                <img src={dots} alt="dot-fill" />
+              </div>
+              <div className="left-grid">
+                <img src={image} alt="man" />
+              </div>
             </div>
+
             <div className="right-grid">
               <div className="grid-text">
                 <p className="grid-p">
