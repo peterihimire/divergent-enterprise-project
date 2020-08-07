@@ -207,6 +207,10 @@ body {
     color: var(--mainWhite);
     background: #0025b4;
   }
+  .btn-big {
+    padding: 2rem 8rem;
+  }
+
   .btn-container {
     display: flex;
     align-items: center;
@@ -215,6 +219,15 @@ body {
     display: flex;
     margin: 0 0 0 1rem;
     text-decoration: none;
+  }
+  .play-link .fa-play {
+    color: var(--mainBlack);
+  }
+
+  .play-link span {
+    color: var(--primaryColor);
+
+    padding: 0 0 0 1rem;
   }
 }
 /* end of banner */
@@ -254,6 +267,10 @@ body {
 .grid-p {
   padding: 0 0 2rem 0;
   line-height: var(--lineHeight);
+}
+.grid-p-bold {
+  font-weight: bold;
+  font-size: 2rem;
 }
 .card {
   box-shadow: 0px 15px 55px rgba(0, 0, 0, 0.1);
@@ -336,6 +353,16 @@ body {
 .lady-dots {
   position: absolute;
 }
+.shape {
+  position: absolute;
+  top: 250px;
+  right: 200px;
+}
+.bean {
+  position: absolute;
+  top: 220px;
+  right: 60px;
+}
 .own-btn-div {
   padding: 2rem 0;
   display: flex;
@@ -358,7 +385,7 @@ body {
 }
 .partnered-container {
   text-align: center;
-  padding: 0rem 15rem;
+  padding: 0rem 20rem;
 }
 .btn-white {
   background: var(--mainWhite);
@@ -369,6 +396,9 @@ body {
   padding: 2rem 0;
   display: flex;
   justify-content: center;
+}
+.grid-p span {
+  color: var(--primaryColor);
 }
 /* end of partnered */
 
@@ -501,6 +531,8 @@ body {
     display: flex;
     flex-direction: column;
     padding: 6rem 0 0 0;
+    max-width: 1170px;
+    margin: 0 auto;
   }
   .last-footer p {
     text-align: left;
@@ -512,6 +544,7 @@ body {
     padding: 3rem 0 0 0;
     color: var(--primaryColor);
     text-align: center;
+    font-size: 1.5rem;
   }
 }
 /* End of Footer */

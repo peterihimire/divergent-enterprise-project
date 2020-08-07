@@ -21,11 +21,12 @@ const Banner = () => {
               </p>
             </div>
             <div className="btn-container">
-              <Link to="/" className="btn dark">
+              <Link to="/" className="btn dark btn-big">
                 hire us
               </Link>
               <Link to="/" className="play-link">
-                <FaPlay /> <span> watch the video</span>
+                <FaPlay className="fa-play" />
+                <span> watch the video</span>
               </Link>
             </div>
           </div>

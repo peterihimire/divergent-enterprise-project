@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import image from "../images/picture-left.png";
 import logo2 from "../images/logo2.png";
 import dots from "../images/Fill.png";
+import shape from "../images/shape.png";
+import bean from "../images/bean.png";
 
 const OwnProcredita = () => {
   return (
@@ -19,6 +21,12 @@ const OwnProcredita = () => {
             <div className="lady-dots-div">
               <div className="lady-dots">
                 <img src={dots} alt="dot-fill" />
+              </div>
+              <div className="shape">
+                <img src={shape} alt="shape" />
+              </div>
+              <div className="bean">
+                <img src={bean} alt="bean" />
               </div>
               <div className="left-grid">
                 <img src={image} alt="man" />
@@ -53,7 +61,7 @@ const OwnProcredita = () => {
                 </p>
                 <h5>Become a Dept Collection Manager</h5>
                 <div className="own-btn-div">
-                  <Link to="/" className="btn dark">
+                  <Link to="/" className="btn dark btn-big">
                     signup
                   </Link>
                 </div>

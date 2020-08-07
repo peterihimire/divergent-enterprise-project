@@ -95,7 +95,7 @@ const WhyProcredita = () => {
                 </div>
               </div>
               <div className="card-btn-div">
-                <Link className="btn">hire us</Link>
+                <Link className="btn btn-big">hire us</Link>
               </div>
             </div>
           </div>
